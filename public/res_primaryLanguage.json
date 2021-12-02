@@ -2,7 +2,7 @@
     "basic_info": {
       "description_header": "안녕하세요! Iot 백엔드 개발자가 되고 싶은 박상준입니다.",
       "description": "· '코딩'이라는 도구를 통해 다양한 글을 쓰는 즐거움에 살고 있습니다. 저의 글이 모바일, 웹, 사물인터넷 등 어디든 표현되도록 노력하고 있습니다.",
-      "description_sub1": "· 좋은 표현을 위해 코드 디자인 패턴 연구하고 있습니다. 쓰는 것이 목적이 아닌 잘 보여주는 글을 쓰고 싶습니다.",
+      "description_sub1": "· 좋은 표현을 위해 코드 디자인 패턴 공부하고 있습니다. 쓰는 것이 목적이 아닌 잘 보여주는 글을 쓰고 싶습니다.",
       "description_sub2":"· 대화, 상상 그리고 식물🌻키우기을 좋아합니다",
       "section_name": {
         "about": "스스로 소개",
@@ -107,52 +107,46 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
+        "icon":"",
+        "title": "경기창조혁신센터, 액트너랩",
+        "subtitle": "스타트업 컨설팅 교육",
+        "years": "04.2018 - 08.2018",
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "BM",
+          "Marketing"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
+        "icon":"",
+        "title": "경복대학교",
+        "subtitle": "스마트 IT과",
+        "years": "08.2017 - 02.2022",
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "RaspberryPi",
+          "Rasbian",
+          "Arduino"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
+        "icon":"",
+        "title": "SK상생혁신센터",
+        "subtitle": "실무 앱 개발 프로젝트 교육 [기획과 개발]",
+        "years": "08.2015 - 11.2015",
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "Android",
+          "Recycle ListView",
+          "SQLlite"
+        ]
+      },
+      {
+        "icon":"",
+        "title": "상일미디어 고등학교",
+        "subtitle": "개발공부 시작",
+        "years": "03.2014 - 02.2017",
+        "technologies": [
+          "C",
+          "Java",
+          "Android"
         ]
       }
     ]
