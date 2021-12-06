@@ -61,7 +61,7 @@ class About extends Component {
                     alt="Avatar placeholder"
                   />
              
-                  <Icon
+             <Icon
                     icon={javaIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
