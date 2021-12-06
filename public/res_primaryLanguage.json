@@ -1,153 +1,157 @@
 {
-    "basic_info": {
-      "description_header": "안녕하세요! Iot 백엔드 개발자가 되고 싶은 박상준입니다.",
-      "description": "· '코딩'이라는 도구를 통해 다양한 글을 쓰는 즐거움에 살고 있습니다. 저의 글이 모바일, 웹, 사물인터넷 등 어디든 표현되도록 노력하고 있습니다.",
-      "description_sub1": "· 좋은 표현을 위해 코드 디자인 패턴 공부하고 있습니다. 쓰는 것이 목적이 아닌 잘 보여주는 글을 쓰고 싶습니다.",
-      "description_sub2":"· 대화, 상상 그리고 식물🌻키우기을 좋아합니다",
-      "section_name": {
-        "about": "스스로 소개",
-        "projects": "프로젝트",
-        "skills": "기술스택",
-        "experience": "라이프 로그"
-      }
+  "basic_info": {
+    "description_header": "안녕하세요! 백엔드 개발자가 되고 싶은 박상준입니다.",
+    "description": "· 많은 코딩 환경에 익숙해져서 생각하는 모든 것을 IT로 담아보고 싶습니다. 그래서 다양한 플랫폼에 코딩할 수 있도록 노력합니다! ",
+    "description_sub1": "· 이제는 그저 만드는 것이 목적이 아닌 잘 보여주는 코드를 만들기 위해 노력하고 있습니다.",
+    "description_sub2":"· 대화, 상상 그리고 식물🌻키우기을 좋아합니다",
+    "section_name": {
+      "about": "스스로 소개",
+      "projects": "프로젝트",
+      "skills": "기술스택",
+      "experience": "라이프 로그"
+    }
+  },
+  "projects": [
+    {
+      "title": "MQTT Mirror Server",
+      "startDate": "2021",
+      "description": "개발자를 위한 홈 IOT네트워크 형성을 쉽게 하자는 취지로 시작했습니다. 서버로 사용할 뿐만 아니라 생활IOT제품으로도 사용하도록 만든 토이프로젝트 입니다.",
+      "images": [
+        "images/portfolio/mqttserver/sys.png",
+        "images/portfolio/mqttserver/mirror.png",
+        "images/portfolio/mqttserver/phone.png",
+        "images/portfolio/mqttserver/mqtt.png"
+      ],
+      "url": "https://github.com/Haiol/MQTTMirrorServer.git",
+      "technologies": [
+        {
+          "name": "Android",
+          "class": "devicon-android-plain"
+        },
+     
+        {
+          "name": "Java",
+          "class": "devicon-java-plain"
+        },
+        {
+          "name": "RaspberryPi",
+          "class": "devicon-raspberrypi-line"
+        },
+        {
+          "name": "JQuery",
+          "class": "devicon-jquery-plain"
+        }, 
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Arduino",
+          "class": "devicon-arduino-plain"
+        },
+        {
+          "class": "devicon-c-plain",
+          "name": "C"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+       
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "icon":"",
-        "title": "경기창조혁신센터, 액트너랩",
-        "subtitle": "스타트업 컨설팅 교육",
-        "years": "04.2018 - 08.2018",
-        "technologies": [
-          "BM",
-          "Marketing"
-        ]
-      },
-      {
-        "icon":"",
-        "title": "경복대학교",
-        "subtitle": "스마트 IT과",
-        "years": "08.2017 - 02.2022",
-        "technologies": [
-          "RaspberryPi",
-          "Rasbian",
-          "Arduino"
-        ]
-      },
-      {
-        "icon":"",
-        "title": "SK상생혁신센터",
-        "subtitle": "실무 앱 개발 프로젝트 교육 [기획과 개발]",
-        "years": "08.2015 - 11.2015",
-        "technologies": [
-          "Android",
-          "Recycle ListView",
-          "SQLlite"
-        ]
-      },
-      {
-        "icon":"",
-        "title": "상일미디어 고등학교",
-        "subtitle": "개발공부 시작",
-        "years": "03.2014 - 02.2017",
-        "technologies": [
-          "C",
-          "Java",
-          "Android"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Iot Server",
+      "startDate": "2020",
+      "description": "각 각의 온습도 센서 데이터를 받아 DB에 표시하는 웹 페이지 입니다. 사용자 <-> 온습도 센서 열결 되어있어 해당되는 제품의 온도와 습도를 보여주는 홈페이지입니다.",
+      "images": [
+        "images/portfolio/iotserver/board.png",
+        "images/portfolio/iotserver/login.png"
+      ],
+      "url": "https://github.com/Haiol/IOTserver.git",
+      "technologies": [
+        {
+          "class": "devicon-googlecloud-plain",
+          "name": "GCP"
+        },
+        {
+          "name": "Apache",
+          "class": "devicon-apache-plain"
+        }, 
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain"
+        }, 
+        {
+          "name": "JQuery",
+          "class": "devicon-jquery-plain"
+        }, 
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "Arduino",
+          "class": "devicon-arduino-plain"
+        },
+        {
+          "class": "devicon-c-plain",
+          "name": "C"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "icon":"fa-building",
+      "title": "경기창조혁신센터, 액트너랩",
+      "subtitle": "스타트업 컨설팅 교육",
+      "years": "04.2018 - 08.2018",
+      "technologies": [
+        "BM",
+        "Marketing"
+      ]
+    },
+    {
+      "icon":"fa-graduation-cap",
+      "title": "경복대학교",
+      "subtitle": "IOT프로그래밍 학습",
+      "years": "08.2017 - 02.2022",
+      "technologies": [
+        "RaspberryPi",
+        "Rasbian",
+        "Arduino"
+      ]
+    },
+    {
+      "icon":"fa-building",
+      "title": "SK상생혁신센터",
+      "subtitle": "실무 앱 개발 프로젝트 교육 [기획과 개발]",
+      "years": "08.2015 - 11.2015",
+      "technologies": [
+        "Android",
+        "Recycle ListView",
+        "SQLlite"
+      ]
+    },
+    {
+      "icon":"fa-graduation-cap",
+      "title": "상일미디어 고등학교",
+      "subtitle": "개발 공부의 시작",
+      "years": "03.2014 - 02.2017",
+      "technologies": [
+        "C",
+        "Java",
+        "Android"
+      ]
+    }
+  ]
+}

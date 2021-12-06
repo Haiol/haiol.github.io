@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import javaIcon from "@iconify/icons-logos/java";
+import androidIcon from "@iconify/icons-logos/android-icon";
+import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
 import Lottie from 'lottie-web';
 import animate from 'lottie-web';
 
@@ -56,21 +56,21 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    height="280px"
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
              
                   <Icon
-                    icon={angularIcon}
+                    icon={javaIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
+                    icon={androidIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={nodejsIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
