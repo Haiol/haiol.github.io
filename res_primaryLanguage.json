@@ -1,0 +1,157 @@
+{
+  "basic_info": {
+    "description_header": "안녕하세요! 백엔드 개발자가 되고 싶은 박상준입니다.",
+    "description": "· 많은 코딩 환경에 익숙해져서 생각하는 모든 것들을 IT로 담아보고 싶습니다. 그래서 다양한 물체에 구현하도록 웹, 모바일, 디바이스(iot)를 다룰 수 있는 역량을 가지고 있습니다. ",
+    "description_sub1": "· 이제는 그져 만드는 것이 목적이 아닌 다른 사람에게도 잘 보여주는 코드를 만들기 위해 노력하고 있습니다",
+    "description_sub2":"· 생각이 구체화 되가는 모습이 저가 코딩을 하는 이유입니다. '모두'의 생각을 만들어 가는 개발자입니다.",
+    "section_name": {
+      "about": "스스로 소개",
+      "projects": "프로젝트",
+      "skills": "기술스택",
+      "experience": "라이프 로그"
+    }
+  },
+  "projects": [
+    {
+      "title": "MQTT Mirror Server",
+      "startDate": "2021",
+      "description": "개발자를 위한 홈 IOT네트워크 형성을 쉽게 하자는 취지로 시작했습니다. 서버로 사용할 뿐만 아니라 생활IOT제품으로도 사용하도록 만든 토이프로젝트 입니다.",
+      "images": [
+        "images/portfolio/mqttserver/sys.png",
+        "images/portfolio/mqttserver/mirror.png",
+        "images/portfolio/mqttserver/phone.png",
+        "images/portfolio/mqttserver/mqtt.png"
+      ],
+      "url": "https://github.com/Haiol/MQTTMirrorServer.git",
+      "technologies": [
+        {
+          "name": "Android",
+          "class": "devicon-android-plain"
+        },
+     
+        {
+          "name": "Java",
+          "class": "devicon-java-plain"
+        },
+        {
+          "name": "RaspberryPi",
+          "class": "devicon-raspberrypi-line"
+        },
+        {
+          "name": "JQuery",
+          "class": "devicon-jquery-plain"
+        }, 
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "NodeJS",
+          "class": "devicon-nodejs-plain"
+        },
+        {
+          "name": "Arduino",
+          "class": "devicon-arduino-plain"
+        },
+        {
+          "class": "devicon-c-plain",
+          "name": "C"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+       
+      ]
+    },
+    {
+      "title": "Iot Server",
+      "startDate": "2020",
+      "description": "각 각의 온습도 센서 데이터를 받아 DB에 표시하는 웹 페이지 입니다. 사용자 <-> 온습도 센서 열결 되어있어 해당되는 제품의 온도와 습도를 보여주는 홈페이지입니다.",
+      "images": [
+        "images/portfolio/iotserver/board.png",
+        "images/portfolio/iotserver/login.png"
+      ],
+      "url": "https://github.com/Haiol/IOTserver.git",
+      "technologies": [
+        {
+          "class": "devicon-googlecloud-plain",
+          "name": "GCP"
+        },
+        {
+          "name": "Apache",
+          "class": "devicon-apache-plain"
+        }, 
+        {
+          "name": "PHP",
+          "class": "devicon-php-plain"
+        }, 
+        {
+          "name": "JQuery",
+          "class": "devicon-jquery-plain"
+        }, 
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
+        },
+        {
+          "name": "Arduino",
+          "class": "devicon-arduino-plain"
+        },
+        {
+          "class": "devicon-c-plain",
+          "name": "C"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "icon":"fa-building",
+      "title": "경기창조혁신센터, 액트너랩",
+      "subtitle": "스타트업 컨설팅 교육",
+      "years": "04.2018 - 08.2018",
+      "technologies": [
+        "BM",
+        "Marketing"
+      ]
+    },
+    {
+      "icon":"fa-graduation-cap",
+      "title": "경복대학교",
+      "subtitle": "IOT프로그래밍 학습",
+      "years": "08.2017 - 02.2022",
+      "technologies": [
+        "RaspberryPi",
+        "Rasbian",
+        "Arduino"
+      ]
+    },
+    {
+      "icon":"fa-building",
+      "title": "SK상생혁신센터",
+      "subtitle": "실무 앱 개발 프로젝트 교육 [기획과 개발]",
+      "years": "08.2015 - 11.2015",
+      "technologies": [
+        "Android",
+        "Recycle ListView",
+        "SQLlite"
+      ]
+    },
+    {
+      "icon":"fa-graduation-cap",
+      "title": "상일미디어 고등학교",
+      "subtitle": "개발 공부의 시작",
+      "years": "03.2014 - 02.2017",
+      "technologies": [
+        "C",
+        "Java",
+        "Android"
+      ]
+    }
+  ]
+}
