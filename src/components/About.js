@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import javaIcon from "@iconify/icons-logos/java";
-import androidIcon from "@iconify/icons-logos/android-icon";
-import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
 import Lottie from 'lottie-web';
 import animate from 'lottie-web';
 
@@ -60,11 +58,12 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-             
+             <h1>주요스킬</h1>
              <Icon
                     icon={javaIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
+                  <a><h1>Java</h1></a>
                 </span>
               </div>
             </div>
