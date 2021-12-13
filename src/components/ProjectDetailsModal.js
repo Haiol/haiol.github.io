@@ -11,7 +11,6 @@ class ProjectDetailsModal extends Component {
       const images = this.props.data.images;
       var title = this.props.data.title;
       var description = this.props.data.description;
-      var description = this.props.data.description;
       var url = this.props.data.url;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
@@ -95,7 +94,7 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             {
-              description != undefined?
+              description !== undefined?
             description.split("\n").map((line)=>{
               return(
                 

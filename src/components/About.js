@@ -63,7 +63,7 @@ class About extends Component {
                     icon={javaIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
-                  <a><h1>Java</h1></a>
+                  <p><h1>Java</h1></p>
                 </span>
               </div>
             </div>
