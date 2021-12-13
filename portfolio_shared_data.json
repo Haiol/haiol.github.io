@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "name": "박상준",
-    "titles": [ "👨🏻‍💼Begginer Developer", "📻IOT Engineer", "💻Bakend Develpor", "📱Android Developer" ],
+    "titles": [ "👨🏻‍💼Begginer Developer", "📻IOT Engineer", "💻Bakend Develpor"],
     "social": [
       {
         "name": "github",
@@ -25,21 +25,7 @@
         "class": "devicon-android-plain",
         "level": "80"
       },
-      {
-        "name": "HTML 5",
-        "class": "devicon-html5-plain",
-        "level": "95"
-      },
-      {
-        "name": "CSS 3",
-        "class": "devicon-css3-plain",
-        "level": "95"
-      },
-      {
-        "name": "JavaScript",
-        "class": "devicon-javascript-plain",
-        "level": "70"
-      },
+   
       {
         "name": "JQuery",
         "class": "devicon-jquery-plain",
@@ -49,38 +35,6 @@
         "name": "Bootstrap",
         "class": "devicon-bootstrap-plain",
         "level": "85"
-      },
-      {
-        "name": "NodeJS",
-        "class": "devicon-nodejs-plain",
-        "level": "65"
-      },
-      {
-        "name": "express",
-        "class": "devicon-express-original-wordmark",
-        "level": "90"
-      },
-      {
-        "name": "PHP",
-        "class": "devicon-php-plain",
-        "level": "75"
-      },
-      {
-        "name": "Arduino",
-        "class": "devicon-arduino-plain",
-        "level": "65"
-      },
-     
-      {
-        "name": "RaspberryPi",
-        "class": "devicon-raspberrypi-line",
-        "level": "65"
-      },
-   
-      {
-        "name": "MySql",
-        "class": "devicon-mysql-plain",
-        "level": "60"
       }
     ]
   }
